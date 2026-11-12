@@ -1,0 +1,27 @@
+[
+  {
+    "event_id": "INVALID-MISSING-PRODUCT",
+    "expected": "REJECT",
+    "reason": "deliberate generator edge case"
+  },
+  {
+    "event_id": "INVALID-UNKNOWN-WH",
+    "expected": "REJECT",
+    "reason": "deliberate generator edge case"
+  },
+  {
+    "event_id": "INVALID-NEG-RECEIPT",
+    "expected": "REJECT",
+    "reason": "deliberate generator edge case"
+  },
+  {
+    "event_id": "EVT00000002",
+    "expected": "DUPLICATE_REJECT",
+    "reason": "duplicate within file"
+  },
+  {
+    "event_id": "LATE-BACKDATED-001",
+    "expected": "ACCEPT_AND_BACKFILL",
+    "reason": "late-arriving event"
+  }
+]
