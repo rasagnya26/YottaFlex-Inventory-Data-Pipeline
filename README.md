@@ -1,4 +1,4 @@
-# YottaFlex Inventory Data Engineering Challenge
+# YottaFlex Inventory Data Pipeline 
 
 A local, reproducible inventory movement pipeline for receipts, issues, transfers, and signed adjustments. It validates source CSV data, quarantines invalid records, stores immutable accepted events in SQLite, rebuilds daily balances (including late/backdated events), records operational metrics, and reconciles movement totals.
 
